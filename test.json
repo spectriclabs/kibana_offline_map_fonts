@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4933,
+          13.7551
+        ]
+      },
+      "properties": {
+	"language":"Urdu",
+        "label": "یہ ٹیسٹ ہنگری میں لیبلز کے لیے ہے۔"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6523,
+          46.5535
+        ]
+      },
+      "properties": {
+	"language":"Korean",
+        "label": "이 테스트는 헝가리어 라벨용입니다."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.3596,
+          48.4268
+        ]
+      },
+      "properties": {
+	"language":"Thai",
+        "label": "การทดสอบนี้ใช้สำหรับฉลากในภาษาฮังการี"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4264,
+          -33.9224
+        ]
+      },
+      "properties": {
+	"language":"Chinese trad",
+        "label": "該測試適用於匈牙利語標籤"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.195,
+          -33.8552
+        ]
+      },
+      "properties": {
+	"language":"Chinese simp",
+        "label": "该测试适用于匈牙利语标签"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1404,
+          41.3925
+        ]
+      },
+      "properties": {
+	"language":"Hawaiian",
+        "label": "No nā lepili ma Hungarian kēia hoʻāʻo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8548,
+          39.7644
+        ]
+      },
+      "properties": {
+	"language":"Hindi",
+        "label": "यह परीक्षण हिंदी में लेबल के लिए है"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1665,
+          52.9539
+        ]
+      },
+      "properties": {
+	"language":"Hungarian",
+        "label": "Ez a teszt magyar nyelvű címkékre vonatkozik"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6544,
+          45.5428
+        ]
+      },
+      "properties": {
+	"language":"Azerbaijani",
+        "label": "Bu test Azərbaycan dilində etiketlər üçündür"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.974,
+          37.5651
+        ]
+      },
+      "properties": {
+        "language":"Spanish",
+        "label": "Esta prueba es para etiquetas en español."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1112,
+          50.7255
+        ]
+      },
+      "properties": {
+        "language":"Russian",
+        "label": "Этот тест предназначен для этикеток на русском языке."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0314,
+          42.3539
+        ]
+      },
+      "properties": {
+        "language":"Pashto",
+        "label": "دا ازموینه په عربي کې د لیبلونو لپاره ده"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.2794,
+          -6.8173
+        ]
+      },
+      "properties": {
+        "language":"Japanese",
+        "label": "このテストは日本語のラベルを対象としています"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0961,
+          44.4379
+        ]
+      },
+      "properties": {
+        "language":"Hebrew",
+        "label": "מבחן זה מיועד לתוויות בעברית"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0879,
+          51.0279
+        ]
+      },
+      "properties": {
+        "language":"Arabic",
+        "label": "هذا اختبار للتسميات باللغة العربية"
+      }
+    }
+  ]
+}
