@@ -1,0 +1,14 @@
+{
+  "id": "kibanaOfflineMapFonts",
+  "version": "1.0.0",
+  "kibanaVersion": "kibana",
+  "owner": {
+    "name": "spectriclabs",
+    "githubTeam": ""
+  },
+  "description": "Allows for maplibre fonts for languages that aren&#39;t provided by the default kibana maps",
+  "server": true,
+  "ui": false,
+  "requiredPlugins": [],
+  "optionalPlugins": []
+}

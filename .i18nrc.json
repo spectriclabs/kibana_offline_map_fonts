@@ -1,0 +1,7 @@
+{
+  "prefix": "kibanaOfflineMapFonts",
+  "paths": {
+    "kibanaOfflineMapFonts": "."
+  },
+  "translations": ["translations/ja-JP.json"]
+}
