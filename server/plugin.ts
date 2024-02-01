@@ -8,6 +8,7 @@ import {
 
 import { KibanaOfflineMapFontsPluginSetup, KibanaOfflineMapFontsPluginStart } from './types';
 import { defineRoutes } from './routes';
+import { schema } from '@kbn/config-schema';
 
 export class KibanaOfflineMapFontsPlugin
   implements Plugin<KibanaOfflineMapFontsPluginSetup, KibanaOfflineMapFontsPluginStart>
@@ -20,6 +21,28 @@ export class KibanaOfflineMapFontsPlugin
 
   public setup(core: CoreSetup) {
     this.logger.debug('kibanaOfflineMapFonts: Setup');
+    const setVersion = (version:string) =>{
+      const name = "acecard:plugin"+ this.constructor.name;
+      const versionSettings:any = {}
+      versionSettings[name] = {
+        name,
+        description: `Commit id and message for ${this.constructor.name} version readonly do not change`,
+        category: ['acecard'],
+        order: 1,
+        type: 'string',
+        value: version,
+        readonly:false,
+        requiresPageReload: false,
+        schema: schema.string(),
+      }
+      core.uiSettings.register(versionSettings);
+    }
+    import("../common/version").then((version)=>{
+      setVersion(version.version)
+    }).catch(()=>{
+      setVersion("UNKNOWN")
+    })
+
     const router = core.http.createRouter();
 
     // Register server side APIs
